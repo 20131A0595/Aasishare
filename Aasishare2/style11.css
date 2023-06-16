@@ -1,0 +1,256 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    margin-top: 20px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 40px;
+    font-family: Arial;
+    float: left;
+    padding: 30px;
+    padding-top:6px;
+    margin-top: 5px
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    margin-left: 8%;
+    padding: 0px;
+}
+ul li{
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 62px;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin: 0px;
+    margin-left: 27px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.search{
+    float: right;
+    margin-left: 8%;
+    margin-top: 3%;
+}
+.content{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color:black;
+    position: absolute;
+}
+.aass{
+    margin-top: 50px;
+    height:400px;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+.column1{
+    padding-left:130px;
+    float:right;
+    width:60%;
+}
+.column{
+    padding: 35px;
+    padding-top: 45px;
+}
+#posts, .textbar{
+   width:100%;
+   padding: 5px; border: 2px solid black;
+   border-radius: 5px;
+}
+.textbar{
+    margin: 15px;
+    margin-left: 0px;
+    width:94%;
+}
+.sub{
+       cursor: pointer;
+    background-color: #ff7200;
+    color: #000;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    margin-left:65px;
+    margin-top:13px;
+    text-decoration: none;
+}
+.about{
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .about_main .image img{
+    width: 400px;
+    position: relative;
+    top: 60px;
+}
+.about .about_main .about_text h2 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+.about .about_main .about_text h2{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+.about .about_main .about_text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+
+.about .about_main .about_text p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+}
+
+.about .about_btn{
+    background: #fac031;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 55%;
+    bottom: 30px;
+}
+.Contact{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+    background-image: url(image/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Contact h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 55px;
+}
+.Contact h2 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+.Contact h2 span::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fac031;
+    display: block;
+    position: relative;
+    bottom: 15px;
+}
+.Contact .Contact_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Contact .Contact_main .Contact_image img{
+    width: 400px;
+    height:300px
+}
+.Contact .Contact_main form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 10px;
+}
+.Contact ._main form .input p{
+    line-height: 25px;
+}
+.Contact .Contact_main form .input{
+    margin: 5px;
+}
+.Contact .Contact_main form .input input{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border: 2px solid #cccccc;
+    background: #eeeeee;
+    outline: none;
+    border-radius: 3px;
+}
+.Contact .Contact_main form .input input:focus{
+    border: 2px solid #fac031;
+}
+.Contact .Contact_main form .Contact_btn{
+    padding: 10px 0;
+    background: #fac031;
+    color: white;
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+}

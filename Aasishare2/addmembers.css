@@ -1,0 +1,33 @@
+body{
+	font-size: 15px;
+	padding-left: 400px;
+	font-family: cursive;
+}
+fieldset{
+	width: 500px;
+	height: 130px;
+}
+button{
+	height: 50px;
+	width: 200px;
+	background: lightgreen;
+	border-radius: 25px;
+	text-align: center;
+	border: 2px solid green;
+	padding-right: 10px;
+	cursor: pointer;
+}
+button:hover{
+  border-color: #2196F3;
+  background-color: #e7e7e7 ;
+  color: dodgerblue;
+}
+input{
+	border: 2px solid skyblue;
+	border-radius: 10px;
+	height: 22px;
+	width: 200px;
+}
+label{
+	background-color: #e7e7e7;
+}

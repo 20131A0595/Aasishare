@@ -1,0 +1,18 @@
+button{
+	color: red;
+	cursor: pointer;
+	background: lightgreen;
+	border-radius: 25px;
+	text-align: center;
+	border: 2px solid green;
+	height: 30px;
+	width: 100px;
+}
+button:hover{
+  border-color: #2196F3;
+  background-color: #e7e7e7 ;
+  color: dodgerblue;
+}
+input{
+    border: 0px;
+}
